@@ -56,17 +56,26 @@ smart-factory-digital-twin/
 ### 1️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
 
-2️⃣ Generate Dataset
+### 2️⃣ Generate Dataset
+```bash
+
 python data_generator.py
+```
 
-3️⃣ Train the Model
+### 3️⃣ Train the Model
+```bash
 python train_model.py
+```
 
-4️⃣ Run Live Predictions in Terminal
+### 4️⃣ Run Live Predictions in Terminal
+```bash
 python live_predictor.py
+```
 
-5️⃣ Launch the Dashboard
+### 5️⃣ Launch the Dashboard
+```bash
 streamlit run dashboard_app.py
 ```
 ---

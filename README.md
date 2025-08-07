@@ -48,12 +48,13 @@ smart-factory-digital-twin/
 ├── dashboard_app.py                # Streamlit dashboard
 ├── Smart_Factory_Digital_Twin_Project_Report.pdf # Project report
 └── README.md                       # Documentation
-
+```
 ---
 
 ## 🚀 How to Run the Project
 
-1️⃣ Install Dependencies\
+### 1️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
 
 2️⃣ Generate Dataset
@@ -67,7 +68,7 @@ python live_predictor.py
 
 5️⃣ Launch the Dashboard
 streamlit run dashboard_app.py
-
+```
 ---
 
 ## 📸 Dashboard Preview

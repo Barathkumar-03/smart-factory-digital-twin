@@ -8,7 +8,6 @@ The system:
 - Uses a **Random Forest Classifier** for real-time fault prediction
 - Displays live machine status on a **Streamlit dashboard**
 - Shows trends with real-time updating charts
-- Can optionally log faults to cloud databases like Firebase
 
 ---
 

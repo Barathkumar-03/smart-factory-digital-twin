@@ -88,13 +88,14 @@ Here’s the live monitoring dashboard showing real-time machine status:
 ---
 
 ## 📝 Project Highlights
-No Hardware Required – Fully software-based simulation
 
-Machine Learning Model – Predicts faults with high accuracy
+**No Hardware Required** – Fully software-based simulation
 
-Live Data Streaming – Simulates sensor readings in real-time
+**Machine Learning Model** – Predicts faults with high accuracy
 
-Interactive Dashboard – Visualizes machine status & performance metrics
+**Live Data Streaming** – Simulates sensor readings in real-time
 
-Customizable Thresholds – Easily adjust parameters for different factory setups
+**Interactive Dashboard** – Visualizes machine status & performance metrics
+
+**Customizable Thresholds** – Easily adjust parameters for different factory setups
 

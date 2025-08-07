@@ -13,10 +13,10 @@ The system:
 ---
 
 ## 🎯 Features
-- 🔄 Real-time **sensor data simulation**
-- 🧠 AI-powered **fault detection**
-- 📊 **Live updating dashboard** with charts and status
-- 💾 Save and load trained models
+- 🔄 Real-time sensor data simulation  
+- 🧠 AI-powered fault detection  
+- 📊 Live updating dashboard with charts and status  
+- 💾 Save and load trained models  
 - ☁️ Cloud logging support (optional Firebase integration)
 
 ---
@@ -33,44 +33,17 @@ The system:
 ---
 
 ## 📂 Project Structure
-
+```text
 smart-factory-digital-twin/
-├── data/
-│   └── fault_dataset.csv                # Generated dataset for training
-├── model/
-│   └── fault_predictor.pkl              # Trained ML model
-├── sensor_simulator.py                  # Live data simulation script
-├── data_generator.py                    # Dataset creation script
-├── train_model.py                       # ML training script
-├── live_predictor.py                     # Live fault prediction script
-├── dashboard_app.py                     # Streamlit dashboard app
-├── Smart_Factory_Digital_Twin_Project_Report.pdf  # Project report
-└── README.md                            # Project documentation
-
-
-## 🚀 How to Run the Project
-
-### 1️⃣ Install Dependencies
-```bash
-pip install pandas scikit-learn streamlit matplotlib plotly joblib
-
-## Generate Dataset
-python data_generator.py
-
-## Train the Model
-python train_model.py
-
-## Run Live Predictions in Terminal
-python live_predictor.py
-
-## Launch the Dashboard
-streamlit run dashboard_app.py
-
-
-## **3️⃣ The Sample Output**
-```markdown
-
-## 📊 Sample Output (Terminal)
-Here’s the live monitoring dashboard showing real-time machine status:
-
-![Dashboard Preview](images/dashboard_screenshot.png)
+├── data/                          # Generated dataset for training
+│   └── fault_dataset.csv
+├── model/                         # Trained ML model
+│   └── fault_predictor.pkl
+├── images/                        # Project screenshots
+│   └── dashboard_screenshot.png
+├── sensor_simulator.py            # Live data simulation
+├── data_generator.py              # Dataset creation
+├── train_model.py                 # Model training
+├── live_predictor.py              # Live fault prediction
+├── dashboard_app.py               # Streamlit dashboard
+└── Smart_Factory_Digital_Twin_Project_Report.pdf

@@ -1,13 +1,15 @@
 # 🏭 AI-Based Smart Factory Digital Twin with Realtime Fault Prediction & Visualization
 
 ## 📌 Overview
-This project simulates a **Smart Factory Digital Twin** using Python, with real-time sensor data, AI-based fault prediction, and an interactive dashboard. It is a **100% software simulation** with no hardware required — perfect for demonstrating **Industry 4.0** and **IoT + AI integration** skills.
+This project simulates a **Smart Factory Digital Twin** using Python, with real-time sensor data, AI-based fault prediction, and an interactive dashboard.  
+It is a **100% software simulation** with no hardware required — perfect for demonstrating **Industry 4.0** and **IoT + AI integration** skills.
 
 The system:
 - Simulates data for **3 virtual machines** (temperature, vibration, RPM, pressure)
 - Uses a **Random Forest Classifier** for real-time fault prediction
 - Displays live machine status on a **Streamlit dashboard**
 - Shows trends with real-time updating charts
+- Can optionally log faults to cloud databases like Firebase
 
 ---
 
@@ -16,6 +18,7 @@ The system:
 - 🧠 AI-powered fault detection  
 - 📊 Live updating dashboard with charts and status  
 - 💾 Save and load trained models  
+- ☁️ Cloud logging support (optional Firebase integration)  
 
 ---
 
@@ -26,6 +29,7 @@ The system:
 - **Joblib** – Model persistence
 - **Streamlit** – Dashboard & visualization
 - **Matplotlib / Plotly** – Charts & graphs
+- *(Optional)* **Firebase** – Cloud storage for alerts
 
 ---
 
@@ -44,33 +48,35 @@ smart-factory-digital-twin/
 ├── live_predictor.py              # Live fault prediction
 ├── dashboard_app.py               # Streamlit dashboard
 └── Smart_Factory_Digital_Twin_Project_Report.pdf
-
-
-🚀 How to Run the Project
-1. Install Dependencies
-
+⭐⭐ 🚀 How to Run the Project ⭐⭐
+1️⃣ Install Dependencies
+bash
+Copy code
 pip install pandas scikit-learn streamlit matplotlib plotly joblib
-
-2. Generate Dataset
+2️⃣ Generate Dataset
+bash
+Copy code
 python data_generator.py
-
-3. Train the Model
+3️⃣ Train the Model
+bash
+Copy code
 python train_model.py
-
-4. Run Live Predictions in Terminal
-Run Live Predictions in Terminal
-
-5. Launch the Dashboard
+4️⃣ Run Live Predictions in Terminal
+bash
+Copy code
+python live_predictor.py
+5️⃣ Launch the Dashboard
+bash
+Copy code
 streamlit run dashboard_app.py
+⭐⭐ End of How to Run Section ⭐⭐
 
-
- Dashboard Preview
+📸 Dashboard Preview
 Here’s the live monitoring dashboard showing real-time machine status:
 
-![Dashboard Preview](images/dashboard_screenshot.png)
 
 
- Project Highlights
+📝 Project Highlights
 No Hardware Required – Fully software-based simulation
 
 Machine Learning Model – Predicts faults with high accuracy

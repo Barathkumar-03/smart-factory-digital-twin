@@ -9,16 +9,15 @@ The system:
 - Uses a **Random Forest Classifier** for real-time fault prediction
 - Displays live machine status on a **Streamlit dashboard**
 - Shows trends with real-time updating charts
-- Can optionally log faults to cloud databases like Firebase
+
 
 ---
 
 ## 🎯 Features
-- 🔄 Real-time sensor data simulation  
-- 🧠 AI-powered fault detection  
-- 📊 Live updating dashboard with charts and status  
-- 💾 Save and load trained models  
-- ☁️ Cloud logging support (optional Firebase integration)  
+- 🔄 **Real-time sensor data simulation**
+- 🧠 **AI-powered fault detection**
+- 📊 **Live updating dashboard** with charts and machine status
+- 💾 **Save & load trained models** for reuse
 
 ---
 
@@ -45,44 +44,47 @@ smart-factory-digital-twin/
 ├── sensor_simulator.py            # Live data simulation
 ├── data_generator.py              # Dataset creation
 ├── train_model.py                 # Model training
-├── live_predictor.py              # Live fault prediction
-├── dashboard_app.py               # Streamlit dashboard
-└── Smart_Factory_Digital_Twin_Project_Report.pdf
-⭐⭐ 🚀 How to Run the Project ⭐⭐
-1️⃣ Install Dependencies
-bash
-Copy code
-pip install pandas scikit-learn streamlit matplotlib plotly joblib
-2️⃣ Generate Dataset
-bash
-Copy code
-python data_generator.py
-3️⃣ Train the Model
-bash
-Copy code
-python train_model.py
-4️⃣ Run Live Predictions in Terminal
-bash
-Copy code
-python live_predictor.py
-5️⃣ Launch the Dashboard
-bash
-Copy code
-streamlit run dashboard_app.py
-⭐⭐ End of How to Run Section ⭐⭐
+├── live_predictor.py               # Live fault prediction
+├── dashboard_app.py                # Streamlit dashboard
+├── Smart_Factory_Digital_Twin_Project_Report.pdf # Project report
+└── README.md                       # Documentation
 
-📸 Dashboard Preview
+---
+
+## 🚀 How to Run the Project
+
+1️⃣ Install Dependencies\
+pip install -r requirements.txt
+
+2️⃣ Generate Dataset
+python data_generator.py
+
+3️⃣ Train the Model
+python train_model.py
+
+4️⃣ Run Live Predictions in Terminal
+python live_predictor.py
+
+5️⃣ Launch the Dashboard
+streamlit run dashboard_app.py
+
+---
+
+## 📸 Dashboard Preview
 Here’s the live monitoring dashboard showing real-time machine status:
 
+![Dashboard Preview](images/dashboard_screenshot.png)
 
+---
 
-📝 Project Highlights
+## 📝 Project Highlights
 No Hardware Required – Fully software-based simulation
 
 Machine Learning Model – Predicts faults with high accuracy
 
 Live Data Streaming – Simulates sensor readings in real-time
 
-Interactive Dashboard – Visualizes machine status and performance metrics
+Interactive Dashboard – Visualizes machine status & performance metrics
 
 Customizable Thresholds – Easily adjust parameters for different factory setups
+

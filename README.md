@@ -17,7 +17,6 @@ The system:
 - 🧠 AI-powered fault detection  
 - 📊 Live updating dashboard with charts and status  
 - 💾 Save and load trained models  
-- ☁️ Cloud logging support (optional Firebase integration)
 
 ---
 
@@ -28,7 +27,6 @@ The system:
 - **Joblib** – Model persistence
 - **Streamlit** – Dashboard & visualization
 - **Matplotlib / Plotly** – Charts & graphs
-- *(Optional)* **Firebase** – Cloud storage for alerts
 
 ---
 
@@ -47,3 +45,39 @@ smart-factory-digital-twin/
 ├── live_predictor.py              # Live fault prediction
 ├── dashboard_app.py               # Streamlit dashboard
 └── Smart_Factory_Digital_Twin_Project_Report.pdf
+
+
+🚀 How to Run the Project
+1. Install Dependencies
+
+pip install pandas scikit-learn streamlit matplotlib plotly joblib
+
+2. Generate Dataset
+python data_generator.py
+
+3. Train the Model
+python train_model.py
+
+4. Run Live Predictions in Terminal
+Run Live Predictions in Terminal
+
+5. Launch the Dashboard
+streamlit run dashboard_app.py
+
+
+ Dashboard Preview
+Here’s the live monitoring dashboard showing real-time machine status:
+
+![Dashboard Preview](images/dashboard_screenshot.png)
+
+
+ Project Highlights
+No Hardware Required – Fully software-based simulation
+
+Machine Learning Model – Predicts faults with high accuracy
+
+Live Data Streaming – Simulates sensor readings in real-time
+
+Interactive Dashboard – Visualizes machine status and performance metrics
+
+Customizable Thresholds – Easily adjust parameters for different factory setups
